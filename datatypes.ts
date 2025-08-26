@@ -38,5 +38,7 @@ console.log(tuple[0].substring(1,3)); // OK
 enum Color {Red = 1, Green = 2, Blue = 4}
 let c: Color = Color.Green;
 let colorName: string | undefined = Color[2];
-console.log(c); // Displays 'Green' as its value is 2 above
+console.log(colorName); // Displays 'Green' as its value is 2 above
+console.log(c); // Displays 2
+console.log(Color); // Displays the whole enum as an object
 
